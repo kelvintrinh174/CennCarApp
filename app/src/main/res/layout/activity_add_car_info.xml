@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCarInfo"
+    android:orientation="vertical">
+
+    <EditText
+    android:id="@+id/carBrandEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:hint="Car Brand"
+    android:textSize="25sp"
+    android:textColor="@color/contentText"/>
+
+    <EditText
+        android:id="@+id/carModelEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Car Model"
+        android:textSize="25sp"
+        android:textColor="@color/contentText"/>
+
+    <EditText
+        android:id="@+id/carColourEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Car Colour"
+        android:textSize="25sp"
+        android:textColor="@color/contentText"/>
+
+    <EditText
+        android:id="@+id/carStatusEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Car Status"
+        android:textSize="25sp"
+        android:textColor="@color/contentText"/>
+    <EditText
+        android:id="@+id/carPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Car Price"
+        android:textSize="25sp"
+        android:textColor="@color/contentText"/>
+    <EditText
+        android:id="@+id/carTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Car Type"
+        android:textSize="25sp"
+        android:textColor="@color/contentText"/>
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Car Infor"
+        android:onClick="addCar"/>
+</LinearLayout>

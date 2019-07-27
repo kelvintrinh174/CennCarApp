@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CennCarApp</string>
+    <string-array name="car_brand_arrays">
+        <item>No selection</item>
+        <item>Toronto</item>
+        <item>Toyota</item>
+        <item>Mercedes</item>
+        <item>Ford</item>
+        <item>Lexus</item>
+    </string-array>
+</resources>
